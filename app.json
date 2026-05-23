@@ -1,0 +1,12 @@
+{
+  "id": "com.berean.scripture",
+  "edition": "202601",
+  "name": "Berean",
+  "version": "0.1.0",
+  "description": "Scripture study companion — cross-references, Strong's, and concise commentary.",
+  "minimumAppVersion": "2.0.0",
+  "minimumSdkVersion": "0.0.10",
+  "entryPoint": "index.html",
+  "permissions": [],
+  "supportedLanguages": ["en"]
+}
