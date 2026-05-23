@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "sim": "evenhub-simulator http://localhost:5173",
+    "sim": "npx evenhub-simulator http://localhost:5173",
     "pack": "evenhub pack"
   },
   "dependencies": {
