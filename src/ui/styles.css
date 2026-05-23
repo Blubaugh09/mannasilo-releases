@@ -88,6 +88,8 @@ html, body {
   inset: 0;
   display: grid;
   grid-template-rows: 40px 1fr 28px;
+  /* Horizontal padding here mirrors the SDK's paddingLength on the glasses
+     containers (see PAD in src/plugin/berean.ts). */
   padding: 4px 12px;
   box-sizing: border-box;
 }

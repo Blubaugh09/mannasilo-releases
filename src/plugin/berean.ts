@@ -32,6 +32,9 @@ const BODY_Y = HEADER_H + 4
 const BODY_H = SCREEN_H - BODY_Y - FOOTER_H - 4
 const FOOTER_Y = SCREEN_H - FOOTER_H
 
+// Horizontal breathing room inside each text container.
+const PAD = 12
+
 // Container IDs we reuse across screens. The SDK keys updates by ID.
 const ID_HEADER = 1
 const ID_BODY = 2
@@ -234,6 +237,7 @@ export class BereanPlugin {
         xPosition: 0, yPosition: 0,
         width: SCREEN_W, height: HEADER_H,
         borderWidth: 0,
+        paddingLength: PAD,
         content: headerText,
         isEventCapture: 0
       }),
@@ -242,6 +246,7 @@ export class BereanPlugin {
         xPosition: 0, yPosition: BODY_Y,
         width: SCREEN_W, height: BODY_H,
         borderWidth: 0,
+        paddingLength: PAD,
         content: bodyText,
         isEventCapture: 1
       }),
@@ -250,6 +255,7 @@ export class BereanPlugin {
         xPosition: 0, yPosition: FOOTER_Y,
         width: SCREEN_W, height: FOOTER_H,
         borderWidth: 0,
+        paddingLength: PAD,
         content: footerText,
         isEventCapture: 0
       })
