@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Manna Silo connects to your Even Realities glasses over Bluetooth to read their microphone audio directly.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Manna Silo connects to your Even Realities glasses over Bluetooth to read their microphone audio directly.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Manna Silo transcribes microphone audio streamed from your glasses so you can capture spoken notes and questions.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Manna Silo converts the audio from your glasses into text on your device for live transcription.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>audio</string>
+	</array>
+</dict>
+</plist>
