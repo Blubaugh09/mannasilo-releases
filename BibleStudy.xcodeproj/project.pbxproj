@@ -10,8 +10,25 @@
 		1A0000000000000000000006 /* MannaSilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MannaSilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1A0000000000000000000010 /* Exceptions for "BibleStudy" folder in "MannaSilo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1A0000000000000000000005 /* MannaSilo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1A0000000000000000000004 /* BibleStudy */ = {isa = PBXFileSystemSynchronizedRootGroup; path = BibleStudy; sourceTree = "<group>"; };
+		1A0000000000000000000004 /* BibleStudy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1A0000000000000000000010 /* Exceptions for "BibleStudy" folder in "MannaSilo" target */,
+			);
+			path = BibleStudy;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
